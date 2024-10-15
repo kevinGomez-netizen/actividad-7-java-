@@ -44,7 +44,7 @@ public class Javaproy7 {
             System.out.println("Registro eliminado.");
             mostrarInventario(statement);
                 // Modificación de un registro
-                // Mostrar la tabla después de la eliminación  
+            
             String modificacionacionSQL = null;
             statement.executeUpdate(modificacionacionSQL);
             System.out.println("Registro modificado.");
@@ -56,15 +56,7 @@ public class Javaproy7 {
             
             }      
             
-            
-            
-            
-            
-            
-            
-            
-            
-        } catch (SQLException ex) {
+            } catch (SQLException ex) {
             Logger.getLogger(Javaproy7.class.getName()).log(Level.SEVERE, null, ex);
               } 
         finally {
@@ -79,5 +71,11 @@ public class Javaproy7 {
         }
     }
 
+    private static void mostrarInventario(Statement statement) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 
 }
+
+KEVIN ALFREDO GOMEZ SAAVEDRA ADSO 2024 (2758372)
